@@ -1,3 +1,23 @@
+# Changelog
+<details>
+<summary>Click to expand changelog</summary>
+
+- Added support for the following robotic hands
+  - [Robotera XHand](https://www.robotera.com/en/goods1/4.html)
+
+    ![xhand](/example/xhand.gif)
+
+  - [Bidexhand](https://github.com/wengmister/BiDexHand)
+  
+    ![bidexhand](/example/bidexhand.gif)
+
+</details>
+
+----------
+Below are the content of the original repo.
+
+----------
+
 This repository offers an assortment of high-quality models for dexterous hands and objects. Both of them are in URDF
 format.
 
