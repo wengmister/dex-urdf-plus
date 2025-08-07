@@ -102,7 +102,7 @@ def render_urdf(urdf_path, use_rt, simulate, disable_self_collision, fix_root, h
     elif "panda" in urdf_path:
         loader.scale = 1.5
     elif "xhand" in urdf_path:
-        loader.scale = 1.0
+        loader.scale = 1.1
 
     robot_builder = loader.load_file_as_articulation_builder(urdf_path)
     if disable_self_collision and not simulate:

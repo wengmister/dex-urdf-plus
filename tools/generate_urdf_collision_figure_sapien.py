@@ -129,6 +129,8 @@ def render_urdf(urdf_path, fix_root, disable_self_collision, headless, output_im
     elif "panda" in urdf_path:
         loader.scale = 1.5
     elif "xhand" in urdf_path:
+        loader.scale = 1.1
+    elif "bidexhand" in urdf_path:
         loader.scale = 1.0
 
     robot_builder = loader.load_file_as_articulation_builder(urdf_path)
